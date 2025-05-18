@@ -1,0 +1,30 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Ignore CLI configuration
+.terraformrc
+.terraform/
+
+# Local override files
+#terraform.tfvars
+#terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive output plan files
+*.tfplan
+
+# IDE-specific
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
