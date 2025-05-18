@@ -18,12 +18,19 @@ This Terraform project deploys the [Istio Bookinfo sample application](https://i
 ## 📁 Directory Structure
 
 terraform-bookinfo/
+
 ├── namespace/
+
 ├── details/
+
 ├── ratings/
+
 ├── reviews/
+
 ├── productpage/
+
 ├── deploy-all.sh
+
 └── destroy-all.sh
 
 
