@@ -1,6 +1,4 @@
-### 📄 `README.md`
 
-```md
 # Bookinfo Microservices on Kubernetes (Terraform Managed)
 
 This Terraform project deploys the [Istio Bookinfo sample application](https://istio.io/latest/docs/examples/bookinfo/) to a Kubernetes cluster, using **one Terraform Cloud workspace per microservice**.
@@ -19,8 +17,6 @@ This Terraform project deploys the [Istio Bookinfo sample application](https://i
 
 ## 📁 Directory Structure
 
-```
-
 terraform-bookinfo/
 ├── namespace/
 ├── details/
@@ -30,7 +26,7 @@ terraform-bookinfo/
 ├── deploy-all.sh
 └── destroy-all.sh
 
-````
+
 
 ---
 
@@ -107,4 +103,4 @@ port                 = 9080
 
 ---
 
-```
+
